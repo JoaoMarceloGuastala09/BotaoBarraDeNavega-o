@@ -60,7 +60,7 @@ body {
     transform: translateX(37px);
 }
 
-.light-theme a{
+.light-theme a {
     color: var(--text);
 }
 
