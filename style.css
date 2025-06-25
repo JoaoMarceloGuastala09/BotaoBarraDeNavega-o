@@ -46,4 +46,30 @@ body {
     transition: 0.5s all ease;
 }
 
+.light-theme {
+    --background: #fff;
+    --text: #000;
+    background: var(--background);
+} 
 
+.light-theme .theme-switch {
+    background: var(--text);
+}
+
+.light-theme .theme-switch .switch {
+    transform: translateX(37px);
+}
+
+.light-theme a{
+    color: var(--text);
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    
+}
